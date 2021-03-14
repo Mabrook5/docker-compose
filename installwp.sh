@@ -11,4 +11,6 @@ sudo docker exec -it wordpress mv wp-cli.phar /usr/local/bin/wp;
 sudo docker exec -it wordpress wp core install --url=URL_DU_SITE --title="P10AICBG" --admin_user=wpuser --admin_password=123 --admin_email=info@example.com --allow-root;
 
 echo 'TEST_PublicDnsName'
+echo 'TEST2_PublicDnsName'
 echo 'TEST_DNSName'
+echo 'TEST2_DNSName'
